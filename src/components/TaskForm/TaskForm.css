@@ -42,3 +42,23 @@
     width: 100%;
     gap: 16px;
 }
+
+@media (max-width: 991px) {
+    .form-content-top {
+        flex-direction: column;
+    }
+    .form-footer {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 767px) {
+    .task-form {
+        width: 100%;
+        margin-left: 0;
+    }
+    .from-content-title {
+        font-size: 20px;
+        line-height: 120%;
+    }
+}

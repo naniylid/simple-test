@@ -55,3 +55,18 @@
     display: flex;
     column-gap: 4px;
 }
+
+@media (max-width: 767px) {
+    .task-header {
+        top: 75px;
+    }
+    .task-header-left {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .task-header-right {
+        display: none;
+    }
+}

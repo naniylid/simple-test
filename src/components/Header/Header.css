@@ -72,3 +72,15 @@
 .settings button:hover {
     background-color: #d5d8dd;
 }
+
+@media (max-width: 767px) {
+    .logo {
+        display: none;
+    }
+    .InputContainer {
+        display: none;
+    }
+    .user_wrapper {
+        display: none;
+    }
+}
